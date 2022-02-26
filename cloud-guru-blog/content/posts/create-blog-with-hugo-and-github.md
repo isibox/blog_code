@@ -6,6 +6,12 @@ tags:
   - hugo
 ---
 
+## Reference
+
+This post is based on the following Youtube tutorial.
+
+{{< youtube LIFvgrRxdt4  >}}
+
 ## Prerequisites on Github
 
 - Create a public respository **blog_code** for storing the code.

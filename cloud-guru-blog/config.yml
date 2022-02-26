@@ -1,0 +1,75 @@
+baseURL: "http://isibox.github.io/"
+languageCode: "en-us"
+title: "Cloud-Guru's Blog"
+theme: "hugo-theme-stack"
+
+params:
+  mermaid:
+    enable: true
+
+  mainSections:
+    - post
+  featuredImageField: image
+  rssFullContent: true
+  favicon:
+
+  footer:
+    since: 2020
+    customText:
+
+  dateFormat:
+    published: Jan 02, 2006
+    lastUpdated: Jan 02, 2006 15:04 MST
+
+  sidebar:
+    subtitle: lorem ipsum...
+    avatar:
+      enabled: true
+      local: true
+      src: img/bad-toro-150.png
+
+  article:
+    math: false
+    toc: true
+    readingTime: true
+    license:
+      enabled: true
+      default: Licensed under CC BY-NC-SA 4.0
+
+  # comments:
+  #   enabled: true
+  #   provider: disqus
+
+  widgets:
+    enabled:
+      - search
+      - archives
+      - tag-cloud
+
+  colorScheme:
+    # Display toggle
+    toggle: true
+    # Available values: auto, light, dark
+    default: auto
+
+markup:
+  highlight:
+    lineNos: true
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /posts/
+      weight: -100
+      params:
+        ### For demonstration purpose, the home link will be open in a new tab
+        newTab: false
+        icon: home
+  
+  social:
+    - identifier: github
+      name: GitHub
+      url: https://github.com/isibox
+      params:
+        icon: brand-github

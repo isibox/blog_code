@@ -1,0 +1,4 @@
+[submodule "cloud-guru-blog/public"]
+	path = cloud-guru-blog/public
+	url = git@github.com:isibox/isibox.github.io.git
+	branch = main

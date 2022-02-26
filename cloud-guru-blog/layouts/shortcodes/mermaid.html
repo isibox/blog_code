@@ -1,0 +1,8 @@
+<div class="mermaid">
+  {{.Inner}}
+</div>
+<!-- MermaidJS support -->
+
+{{ if .Site.Params.mermaid.enable }}
+<script async src="https://unpkg.com/mermaid@8.14.0/dist/mermaid.min.js"></script>
+{{ end }}

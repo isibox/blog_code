@@ -5,13 +5,6 @@ tags:
   - github
   - hugo
 ---
-
-## Reference
-
-This post is based on the following Youtube tutorial.
-
-{{< youtube LIFvgrRxdt4  >}}
-
 ## Prerequisites on Github
 
 - Create a public respository **blog_code** for storing the code.
@@ -23,35 +16,32 @@ Clone the blog_code respository.
 
   ```bash
   git clone git@github.com:isibox/blog_code.git
-
   ```
 
 Go to the blog_code folder.
 
   ```bash
   cd blog_code
-
   ```
 
-Create a new site with Hugo
+### Create a new site with Hugo
 
   ```bash
   hugo new site cloud-guru-blog
-
   ```
+
+### Install a theme for Hugo
 
 Go to new site folder, and then in the themes folder.
 
   ```bash
   cd ./cloud-guru-blog/themes
-
   ```
 
 Clone the themes you want to use.
 
   ```bash
   git clone https://github.com/CaiJimmy/hugo-theme-stack.git
-
   ```
 
 Go back to the site folder and rename the config.toml file site.
@@ -70,14 +60,13 @@ Configure the site to use the chosen theme
   theme: "hugo-theme-stack"
   ```
 
-Create a first post.
+### Create a first post
 
   ```bash
   hugo new posts/my-first-post.md
-
   ```
 
-And then write an simple example like below:
+And then, edit the file and write an simple example like below:
 
   ````yaml
   ---

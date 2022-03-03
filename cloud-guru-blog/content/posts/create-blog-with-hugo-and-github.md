@@ -5,6 +5,7 @@ tags:
   - github
   - hugo
 ---
+
 ## Prerequisites on Github
 
 - Create a public respository **blog_code** for storing the code.

@@ -1,28 +1,64 @@
-baseURL: "http://isibox.github.io/"
-languageCode: "en-us"
-title: "Cloud-Guru's Blog"
-theme: "hugo-theme-stack"
+baseURL: http://isibox.github.io/
+languageCode: fr-fr
+paginate: 5
+theme: hugo-theme-stack
+
+title: The Cloud-Guru Blog
+
+languages:
+    fr:
+        languageName: Français
+        title: Le Blog Cloud-Guru
+        weight: 1
+    # en:
+    #     languageName: English
+    #     title: Cloud-Guru Blog
+    #     weight: 2
+
+# Change it to your Disqus shortname before using
+# disqusShortname: hugo-theme-stack
+
+# GA Tracking ID
+# googleAnalytics:
+
+# Theme i18n support
+# Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk
+DefaultContentLanguage: fr
+
+# Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
+# This will make .Summary and .WordCount behave correctly for CJK languages.
+hasCJKLanguage: false
 
 params:
   mermaid:
     enable: true
 
   mainSections:
-    - post
+    - posts
   featuredImageField: image
   rssFullContent: true
   favicon:
 
+  comments:
+    enabled: true
+    provider: utterances
+
+    utterances:
+      repo: isibox/isibox.github.io 
+      issueTerm: pathname
+      label: Ceci est le label
+
   footer:
     since: 2020
-    customText:
+    customText: Texte personnalisé
 
   dateFormat:
     published: Jan 02, 2006
     lastUpdated: Jan 02, 2006 15:04 MST
 
   sidebar:
-    subtitle: lorem ipsum...
+    emoji: 🇺🇦
+    subtitle: "Guru (du sanskrit : गुरु) est un enseignant, précepteur ou maître."
     avatar:
       enabled: true
       local: true
@@ -40,11 +76,22 @@ params:
   #   enabled: true
   #   provider: disqus
 
-  widgets:
-    enabled:
-      - search
-      - archives
-      - tag-cloud
+  # widgets:
+  #   enabled:
+  #     - search
+  #     - archives
+  #     - tag-cloud
+
+# widgets:
+#   homepage:
+#     - type: tag-cloud
+#       params:
+#         limit: 1
+#     - type: archives
+#       params:
+#         limit: 2
+#   page:
+#       - type: toc
 
   colorScheme:
     # Display toggle
@@ -54,18 +101,30 @@ params:
 
 markup:
   highlight:
-    lineNos: false
+    lineNos: true
+    lineNumbersInTable: true
+    # style: native
 
 menu:
   main:
     - identifier: home
-      name: Home
-      url: /posts/
+      name: Accueil
+      url: /home
       weight: -100
       params:
-        ### For demonstration purpose, the home link will be open in a new tab
-        newTab: false
         icon: home
+    - identifier: archives
+      name: Archives
+      url: /archives
+      weight: -20
+      params:
+        icon: archives
+    - identifier: about
+      name: A propos
+      url: /about
+      weight: -10
+      params:
+        icon: user
   
   social:
     - identifier: github

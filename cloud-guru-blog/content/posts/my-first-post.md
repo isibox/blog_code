@@ -1,6 +1,7 @@
 ---
+image: img/Your-First-Blog-Post-1024x576.jpeg
 title: "My First Post"
-date: 2022-02-26T15:18:53+01:00
+date: 2020-02-26T15:18:53+01:00
 tags:
   - shortcodes
   - code blocks
@@ -9,7 +10,8 @@ tags:
 
 A simple example of bash block code:
 
-```bash
+```bash {linenos=false}
+echo "Date: $(date)"
 echo "My first post with hugo"
 ```
 

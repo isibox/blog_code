@@ -1,8 +1,7 @@
 baseURL: http://isibox.github.io/
 languageCode: fr-fr
-paginate: 5
 theme: hugo-theme-stack
-
+paginate: 5
 title: The Cloud-Guru Blog
 
 languages:
@@ -15,9 +14,6 @@ languages:
     #     title: Cloud-Guru Blog
     #     weight: 2
 
-# Change it to your Disqus shortname before using
-# disqusShortname: hugo-theme-stack
-
 # GA Tracking ID
 # googleAnalytics:
 
@@ -27,30 +23,23 @@ DefaultContentLanguage: fr
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: false
+# hasCJKLanguage: false
 
 params:
   mermaid:
     enable: true
 
   mainSections:
-    - posts
-  featuredImageField: image
-  rssFullContent: true
-  favicon:
+    - post
+  # featuredImageField: image
+  # rssFullContent: true
+  # favicon:
 
-  comments:
-    enabled: true
-    provider: utterances
-
-    utterances:
-      repo: isibox/isibox.github.io 
-      issueTerm: pathname
-      label: Ceci est le label
+  # sectionPagesMenu: home
 
   footer:
     since: 2020
-    customText: Texte personnalisé
+    customText:
 
   dateFormat:
     published: Jan 02, 2006
@@ -72,26 +61,29 @@ params:
       enabled: true
       default: Licensed under CC BY-NC-SA 4.0
 
-  # comments:
-  #   enabled: true
-  #   provider: disqus
+  comments:
+    enabled: true
+    provider: utterances
 
-  # widgets:
-  #   enabled:
-  #     - search
-  #     - archives
-  #     - tag-cloud
+    utterances:
+      repo: isibox/isibox.github.io 
+      issueTerm: pathname
+      label: Ceci est le label
 
-# widgets:
-#   homepage:
-#     - type: tag-cloud
-#       params:
-#         limit: 1
-#     - type: archives
-#       params:
-#         limit: 2
-#   page:
-#       - type: toc
+  widgets:
+    homepage:
+      - type: search
+      - type: archives
+        params:
+          limit: 5
+      # - type: categories
+      #   params:
+      #     limit: 10
+      - type: tag-cloud
+        params:
+          limit: 10
+    page:
+      - type: toc
 
   colorScheme:
     # Display toggle
@@ -101,31 +93,13 @@ params:
 
 markup:
   highlight:
-    lineNos: true
+    lineNos: false
     lineNumbersInTable: true
-    # style: native
+    style: native
+    # style: solarized-dark256
+    # style: vim
 
 menu:
-  main:
-    - identifier: home
-      name: Accueil
-      url: /home
-      weight: -100
-      params:
-        icon: home
-    - identifier: archives
-      name: Archives
-      url: /archives
-      weight: -20
-      params:
-        icon: archives
-    - identifier: about
-      name: A propos
-      url: /about
-      weight: -10
-      params:
-        icon: user
-  
   social:
     - identifier: github
       name: GitHub

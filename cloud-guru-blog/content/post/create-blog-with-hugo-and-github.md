@@ -4,6 +4,9 @@ date: 2022-02-26T16:28:56+01:00
 tags:
   - github
   - hugo
+categories:
+  - Front
+  - Code
 ---
 
 ## Prerequisites on Github

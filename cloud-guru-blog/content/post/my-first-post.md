@@ -6,6 +6,10 @@ tags:
   - shortcodes
   - code blocks
   - mermaid
+categories:
+  - IaC
+  - Archi
+  - Code
 ---
 
 A simple example of bash block code:

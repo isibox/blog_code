@@ -1,13 +1,13 @@
 baseURL: http://isibox.github.io/
-languageCode: fr-fr
+languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: The Cloud-Guru Blog
+title: Cloud-Guru, le Blog
 
 languages:
     fr:
         languageName: Français
-        title: Le Blog Cloud-Guru
+        title: Cloud-Guru, le Blog
         weight: 1
     # en:
     #     languageName: English
@@ -46,10 +46,11 @@ params:
     customText:
 
   dateFormat:
-    published: Jan 02, 2006
-    lastUpdated: Jan 02, 2006 15:04 MST
+    published: January 02, 2006
+    lastUpdated: January 02, 2006
 
   sidebar:
+    compact: false
     emoji: 🇺🇦
     subtitle: "Guru (du sanskrit : गुरु) est un enseignant, précepteur ou maître."
     avatar:

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" dir="{{ default `ltr` .Language.LanguageDirection }}">
+    <head>
+        {{- partial "head/head.html" . -}}
+        {{- block "head" . -}}{{ end }}
+    </head>
+    <body class="{{ block `body-class` . }}{{ end }}">
+        {{- partial "head/colorScheme" . -}}
+        {{- $hasWidget := default (gt (len .Site.Params.widgets.homepage) 0) (.Scratch.Get "hasWidget") -}}
+        <div class="container main-container flex on-phone--column {{ if $hasWidget }}extended{{ else }}compact{{ end }}">
+              {{- block "left-sidebar" . -}}
+                {{ if (default false .Params.showLeftSidebar) }}
+                  {{ partial "sidebar/left.html" . }}
+                {{ else }}
+                  <aside class="sidebar left-sidebar sticky {{ if .Site.Params.sidebar.compact }}compact{{ end }}">
+                    <ol class="menu" id="main-menu">
+                      <li>
+                        <a href="{{ .Site.BaseURL | relLangURL }}">
+                          {{ partial "helper/icon" "arrow-back" }}
+                        </a>
+                      </li>
+                    </ol>
+                  </aside>
+                {{ end }}            
+              {{ end }}
+            <main class="main full-width">
+                {{- block "main" . }}{{- end }}
+            </main>
+            {{- block "right-sidebar" . -}}{{ end }}
+        </div>
+        {{ partial "footer/include.html" . }}
+    </body>
+</html>

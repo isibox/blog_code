@@ -7,6 +7,7 @@ tags:
 categories:
   - Front
   - Code
+draft: true
 ---
 
 ## Prerequisites on Github

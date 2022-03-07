@@ -10,4 +10,6 @@ menu:
         weight: -60
         params: 
             icon: search
+
+showLeftSidebar: true
 ---

@@ -10,7 +10,7 @@ categories:
   - IaC
   - Archi
   - Code
-draft: true
+# draft: true
 ---
 
 A simple example of bash block code:

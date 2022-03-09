@@ -1,5 +1,5 @@
 ---
-image: start-here.jpg
+image: the-adventure-begins.jpg
 title: Démarrez ici !
 date: '2022-03-07'
 aliases:

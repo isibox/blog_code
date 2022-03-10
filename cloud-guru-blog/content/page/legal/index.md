@@ -10,7 +10,7 @@ menu:
   main: 
     weight: -10
     params:
-      icon: news
+      icon: school
 
 comments: false
 ---

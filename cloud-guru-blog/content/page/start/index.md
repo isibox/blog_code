@@ -10,7 +10,7 @@ menu:
     main: 
         weight: -85
         params:
-            icon: user
+            icon: flag
 showLeftSidebar: true
 comments: false
 ---

@@ -1,5 +1,5 @@
 ---
-image: img/Your-First-Blog-Post-1024x576.jpeg
+image: img/yes-we-can.jpg
 title: "My First Post"
 date: 2020-02-26T15:18:53+01:00
 tags:

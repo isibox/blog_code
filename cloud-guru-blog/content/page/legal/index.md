@@ -11,8 +11,8 @@ menu:
     weight: -10
     params:
       icon: school
-
 comments: false
+generateRSS: false
 ---
 
 ## Définitions

@@ -1,0 +1,10 @@
+{{- $context := .Context -}}
+{{- $rss_url := .Params.url -}}
+<section class="widget rss">
+    <div class="widget-icon">
+        {{ partial "helper/icon" "rss" }}
+    </div>
+    <a href="{{ $rss_url }}">
+    <h2 class="widget-title section-title">FLUX RSS DES ARTICLES</h2>
+    </a>
+</section>

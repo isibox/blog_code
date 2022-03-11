@@ -14,6 +14,7 @@ menu:
         params:
             icon: user
 showLeftSidebar: true
+generateRSS: false
 comments: false
 ---
 

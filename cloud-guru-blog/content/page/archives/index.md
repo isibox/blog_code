@@ -9,4 +9,5 @@ menu:
         params: 
             icon: archives
 showLeftSidebar: true
+generateRSS: false
 ---

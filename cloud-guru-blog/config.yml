@@ -3,6 +3,9 @@ languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
 title: Cloud-Guru, le Blog
+copyright: This work is licensed under a CC BY-NC-SA 4.0 International License.
+author:
+  name: Henri RASCOL
 
 languages:
     fr:
@@ -78,6 +81,9 @@ params:
   widgets:
     homepage:
       - type: search
+      - type: rss
+        params:
+          url: https://blog.cloud-guru.io/index.xml
       - type: archives
         params:
           limit: 5

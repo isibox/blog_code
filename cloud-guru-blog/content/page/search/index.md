@@ -12,4 +12,5 @@ menu:
             icon: search
 
 showLeftSidebar: true
+generateRSS: false
 ---

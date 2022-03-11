@@ -1,6 +1,6 @@
 ---
-title: "Archi"
-description: "Architecture"
+title: "Architecture"
+description: "Architecture Informatique au sens large"
 slug: "archi"
 image: architecture.jpg
 style:

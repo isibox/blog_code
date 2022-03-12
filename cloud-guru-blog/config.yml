@@ -81,9 +81,6 @@ params:
   widgets:
     homepage:
       - type: search
-      - type: rss
-        params:
-          url: https://blog.cloud-guru.io/index.xml
       - type: archives
         params:
           limit: 5
@@ -118,3 +115,10 @@ menu:
       url: https://github.com/isibox
       params:
         icon: brand-github
+    - identifier: rss
+      name: Flux RSS du Blog
+      url: https://blog.cloud-guru.io/index.xml
+      params:
+        icon: rss
+        newTab: false
+

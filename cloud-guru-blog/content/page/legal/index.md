@@ -4,7 +4,6 @@ title: Mentions légales
 date: '2022-03-06'
 aliases:
   - legal
-license: CC BY-NC-ND
 # lastmod: '2020-10-09'
 menu:
   main: 

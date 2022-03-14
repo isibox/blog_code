@@ -33,16 +33,15 @@ DefaultContentLanguage: fr
 #   page: /:slug/
 
 params:
-  mermaid:
-    enable: true
+  # mermaid:
+  #   enable: true
 
   mainSections:
-    - post
+    # - post
+    - home
   # featuredImageField: image
   # rssFullContent: true
   # favicon:
-
-  # sectionPagesMenu: home
 
   footer:
     since: 2022
@@ -67,7 +66,10 @@ params:
     readingTime: true
     license:
       enabled: true
-      default: Licensed under CC BY-NC-SA 4.0
+      default: Sous licence CC BY-NC-SA 4.0
+      default_img_url: https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png
+      # default_img_url: https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png
+      default_lic_url: http://creativecommons.org/licenses/by-nc-sa/4.0//deed.fr
 
   comments:
     enabled: true
@@ -107,8 +109,10 @@ markup:
     # style: solarized-dark256
     # style: vim
 
+# sectionPagesMenu: home
+
 menu:
-  main: []
+  # main: []
   social:
     - identifier: github
       name: GitHub

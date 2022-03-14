@@ -1,0 +1,28 @@
+<footer class="article-footer">
+    {{ partial "article/components/tags" . }}
+
+    {{- if ne .Lastmod .Date -}}
+    <section class="article-lastmod">
+        {{ partial "helper/icon" "clock" }}
+        <span>
+            {{ T "article.lastUpdatedOn" }} {{ .Lastmod.Format ( or .Site.Params.dateFormat.lastUpdated "Jan 02, 2006 15:04 MST" ) }}
+        </span>
+    </section>
+    {{- end -}}
+
+    {{ if and (.Site.Params.article.license.enabled) (not (eq .Params.license false)) }}
+    {{ $def_img := .Site.Params.article.license.default_img_url }}
+    {{ $def_lic := .Site.Params.article.license.default_lic_url }}
+    {{ $lic := .Params.license }}
+
+    <section class="article-copyright">
+        {{ partial "helper/icon" "copyright" }}
+        {{- if and (and (not (eq $def_img nil )) (not (eq $def_lic nil ))) ( (eq $lic nil)) }}
+        <a href="{{ $def_lic }}" target="_blank">
+            <img  border="0" align="center"  src="{{ $def_img }}"/>
+        </a>
+        {{- end -}}
+        <span>{{ default .Site.Params.article.license.default .Params.license | markdownify }}</span>
+    </section>
+    {{ end }}
+</footer>

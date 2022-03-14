@@ -31,10 +31,10 @@ resource "a_resource" "my_resource_name" {
 
 And finally, a graph with mermaid description:
 
-{{< mermaid >}}
+```mermaid
 graph LR
   A-->B
   A-->C
   B-->D
   C-->D
-{{< /mermaid >}}
+```

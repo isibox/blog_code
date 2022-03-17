@@ -28,17 +28,18 @@ DefaultContentLanguage: fr
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 # hasCJKLanguage: false
 
-# permalinks:
-#   post: /p/:slug/
-#   page: /:slug/
+permalinks:
+  post: /p/:slug/
+  # page: /:slug/
+  home: /:slug/
 
 params:
   # mermaid:
   #   enable: true
 
   mainSections:
-    # - post
-    - home
+    - post
+    # - home
   # featuredImageField: image
   # rssFullContent: true
   # favicon:

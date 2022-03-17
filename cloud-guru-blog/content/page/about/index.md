@@ -45,6 +45,3 @@ Vous pouvez découvrir ce ***démonstrateur*** en suivant ce [lien](../starthere
 ## Qui suis-je ?
 
 Bientôt disponible.
-
-
-

@@ -2,10 +2,11 @@
 image: the-adventure-begins.jpg
 title: Démarrez ici !
 date: '2022-03-07'
+lastmod: '2022-03-17'
 aliases:
   - start
   - starthere
-license: CC BY-NC-ND
+# license: CC BY-NC-ND
 menu:
     main: 
         weight: -85
@@ -36,3 +37,7 @@ L'objectif de **Cloud-Guru, le Blog** est de partager mes connaissances dans le 
 ## Créer un démonstrateur comme fil conducteur
 
 L'idée, qui me motive sur la publicaton régulière d'articles sur ce blog, est de présenter des exemples réalistes correspondants à l'implémentation d'un ***démonstrateur*** dans les clouds ***Azure*** et ***GCP*** (que je connais bien), mais aussi sur le cloud ***AWS*** (que je n'ai jamais implémenté en production).
+
+Voici ci-dessous un schéma représentatif de ce démonstrateur:
+
+![Démonstrateur](img/demonstrator.jpg)

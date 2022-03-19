@@ -30,8 +30,8 @@ DefaultContentLanguage: fr
 
 permalinks:
   post: /p/:slug/
-  # page: /:slug/
-  home: /:slug/
+  page: /:slug/
+
 
 params:
   # mermaid:
@@ -115,6 +115,11 @@ markup:
 menu:
   # main: []
   social:
+    - identifier: linkedin
+      name: Mon profil LinkedIn
+      url: https://www.linkedin.com/in/henri-rascol/
+      params:
+        icon: linkedin
     - identifier: github
       name: GitHub
       url: https://github.com/isibox

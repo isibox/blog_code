@@ -9,7 +9,8 @@ menu:
   main: 
     weight: -10
     params:
-      icon: school
+      icon: law
+showLeftSidebar: true
 comments: false
 generateRSS: false
 ---
@@ -49,7 +50,7 @@ Ces mentions légales RGPD sont issues du [générateur gratuit offert par Orson
 
 ## 2. Conditions générales d’utilisation du site et des services proposés
 
-Le Site constitue une œuvre de l’esprit protégée par les dispositions du Code de la Propriété Intellectuelle et des Réglementations Internationales applicables. 
+Le Site constitue une œuvre de l’esprit protégée par les dispositions du Code de la Propriété Intellectuelle et des Réglementations Internationales applicables.
 Le Client ne peut en aucune manière réutiliser, céder ou exploiter pour son propre compte tout ou partie des éléments ou travaux du Site.
 
 L’utilisation du site [Cloud-Guru, le Blog](https://blog.cloud-guru.io) implique l’acceptation pleine et entière des conditions générales d’utilisation ci-après décrites. Ces conditions d’utilisation sont susceptibles d’être modifiées ou complétées à tout moment, les utilisateurs du site [Cloud-Guru, le Blog](https://blog.cloud-guru.io) sont donc invités à les consulter de manière régulière.
@@ -138,7 +139,7 @@ Henri RASCOL – DPO, Henri RASCOL
 
 Dans ce cas, l’Utilisateur doit indiquer les Données Personnelles qu’il souhaiterait que [Cloud-Guru, le Blog](https://blog.cloud-guru.io) corrige, mette à jour ou supprime, en s’identifiant précisément avec une copie d’une pièce d’identité (carte d’identité ou passeport).
 
-Les demandes de suppression de Données Personnelles seront soumises aux obligations qui sont imposées à [Cloud-Guru, le Blog](https://blog.cloud-guru.io) par la loi, notamment en matière de conservation ou d’archivage des documents. Enfin, les Utilisateurs de [Cloud-Guru, le Blog](https://blog.cloud-guru.io) peuvent déposer une réclamation auprès des autorités de contrôle, et notamment de la CNIL (https://www.cnil.fr/fr/plaintes).
+Les demandes de suppression de Données Personnelles seront soumises aux obligations qui sont imposées à [Cloud-Guru, le Blog](https://blog.cloud-guru.io) par la loi, notamment en matière de conservation ou d’archivage des documents. Enfin, les Utilisateurs de [Cloud-Guru, le Blog](https://blog.cloud-guru.io) peuvent déposer une réclamation auprès des autorités de contrôle, et notamment de la [CNIL](https://www.cnil.fr/fr/plaintes).
   
 ### 7.4 Non-communication des données personnelles
 
@@ -149,8 +150,6 @@ Les demandes de suppression de Données Personnelles seront soumises aux obligat
 Les Données Personnelles de l’Utilisateur peuvent être traitées par des filiales de [Cloud-Guru, le Blog](https://blog.cloud-guru.io) et des sous-traitants (prestataires de services), exclusivement afin de réaliser les finalités de la présente politique.
 
 Dans la limite de leurs attributions respectives et pour les finalités rappelées ci-dessus, les principales personnes susceptibles d’avoir accès aux données des Utilisateurs de [Cloud-Guru, le Blog](https://blog.cloud-guru.io) sont principalement les agents de notre service client.
-
-<div ng-bind-html="rgpdHTML"></div>
 
 ## 8. Notification d’incident
 
@@ -192,9 +191,9 @@ Ces types de cookies ne sont déposés sur vos terminaux qu’à condition que v
 
 [Cloud-Guru, le Blog](https://blog.cloud-guru.io) peut employer occasionnellement des balises Internet (également appelées « tags », ou balises d’action, GIF à un pixel, GIF transparents, GIF invisibles et GIF un à un) et les déployer par l’intermédiaire d’un partenaire spécialiste d’analyses Web susceptible de se trouver (et donc de stocker les informations correspondantes, y compris l’adresse IP de l’Utilisateur) dans un pays étranger.
 
-Ces balises sont placées à la fois dans les publicités en ligne permettant aux internautes d’accéder au Site, et sur les différentes pages de celui-ci. 
+Ces balises sont placées à la fois dans les publicités en ligne permettant aux internautes d’accéder au Site, et sur les différentes pages de celui-ci.
 
-Cette technologie permet à [Cloud-Guru, le Blog](https://blog.cloud-guru.io) d’évaluer les réponses des visiteurs face au Site et l’efficacité de ses actions (par exemple, le nombre de fois où une page est ouverte et les informations consultées), ainsi que l’utilisation de ce Site par l’Utilisateur. 
+Cette technologie permet à [Cloud-Guru, le Blog](https://blog.cloud-guru.io) d’évaluer les réponses des visiteurs face au Site et l’efficacité de ses actions (par exemple, le nombre de fois où une page est ouverte et les informations consultées), ainsi que l’utilisation de ce Site par l’Utilisateur.
   
 Le prestataire externe pourra éventuellement recueillir des informations sur les visiteurs du Site et d’autres sites Internet grâce à ces balises, constituer des rapports sur l’activité du Site à l’attention de [Cloud-Guru, le Blog](https://blog.cloud-guru.io), et fournir d’autres services relatifs à l’utilisation de celui-ci et d’Internet.
   

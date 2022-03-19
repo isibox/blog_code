@@ -77,4 +77,3 @@ L'idée, qui me motive sur la publicaton régulière d'articles sur ce blog, est
 Et, bien, il ne me reste plus qu'a me mettre au travail. Rendez-vous sur des prochains articles à suivre...
 
 ![Hop, au boulot !](img/lets-get-started.jpg)
-

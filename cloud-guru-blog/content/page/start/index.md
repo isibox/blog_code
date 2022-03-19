@@ -70,10 +70,11 @@ L'idée, qui me motive sur la publicaton régulière d'articles sur ce blog, est
 
 ### Environnement de DEV standard
 
-> Si l'on souhaite définir, un environnement de DEV standard, une très bonne solution est de le faire depuis un container comportant l'ensemble des outils nécessaires et suffisants. Avec une image, il est ainsi très facile de faire en sorte qu'une équipe de DEV travaille avec le même environnement correspondant à celui de production.
+> Si l'on souhaite définir, un environnement de DEV standard, une solution simple est de le faire depuis un container comportant l'ensemble des outils nécessaires et suffisants. Avec une image, il est ainsi très facile de faire en sorte qu'une équipe de DEV travaille avec le même environnement correspondant à celui de production.
 
 ## Et ensuite ?
 
-Et, bien, il ne me reste plus qu'a me mettre au travail. Rendez-vous sur des prochains articles à suivre...
+Et, bien, il ne me reste plus qu'a me mettre au travail. Rendez-vous sur les premiers articles à suivre...\
+Abonnez-vous sur le flux RSS du Blog.
 
 ![Hop, au boulot !](img/lets-get-started.jpg)

@@ -15,12 +15,12 @@ tags:
 lastmod: 2022-03-19
 ---
 
-> J'utiliserais ce premier article pour montrer ce qu'il est possible de publier ***simplement*** avec **HUGO** en ***markdown***.\
-> Celui sera donc amené à être mis à jour régulièrement...
+> Il est facile de publier un article depuis un fichier ***markdown*** avec **Hugo**.\
+> Celui-ci est un simple exemple de ce qu'il est possible de faire. Il ne s'agit pas d'un tutoriel sur **Hugo**.
 
 ## Des meta-données pour le ***header*** de l'article
 
-Ces méta-données sont directement définies en haut de cette article dans le fichier markdown.
+Ces méta-données sont directement définies dans le haut du fichier ***markdown*** de cet article.
 
 ```yaml
 ---
@@ -35,7 +35,7 @@ categories:
 # ...
 ```
 
-Le résultat est visible tput en haut.
+Le résultat est visible avant le début de l'article.
 
 ## Publier du code (code block) avec HUGO
 
@@ -55,7 +55,7 @@ resource "a_resource" "my_resource_name" {
 }
 ```
 
-Et enfin utiliser un ***Code Block*** avec ***mermaid** pour dessiner un petit graphe :
+Et enfin utiliser un ***Code Block*** avec ***mermaid*** pour dessiner un petit graphe :
 
 ```mermaid
 graph LR
@@ -67,7 +67,7 @@ graph LR
 
 ## D'autres meta-données pour le ***footer*** de l'article
 
-Ces méta-données sont directement définies en haut de cette article dans le fichier markdown.
+Ces méta-données sont aussi directement définies dans le haut du fichier ***markdown*** de cet article.
 
 ```yaml
 # ...
@@ -79,4 +79,4 @@ lastmod: 2022-03-19
 ---
 ```
 
-Le résultat est visible ci-dessous.
+Le rendu est visible ci-dessous.

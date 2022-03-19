@@ -34,9 +34,8 @@ permalinks:
 
 
 params:
-  # mermaid:
-  #   enable: true
-
+  birthDate: '1967-05-15'
+  
   mainSections:
     - post
     # - home

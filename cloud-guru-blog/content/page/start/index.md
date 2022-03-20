@@ -19,7 +19,7 @@ Bienvenue sur **Cloud-Guru, le Blog** !
 
 ## Présentation (très) générale
 
-Cela fait bien longtemps que j'aurais du démarrer ce blog; bien longtemps... Mais ne dit-on pas : ***Il n'est jamais trop tard pour commencer*** ? Alors, voilà, je m'y mets et j'espère le faire avec sérieux (je parle ici de régularité), mais surtout avec enthousiasme. Sérieusement, oui, mais sans se prendre au sérieux, justement 😛. Cela est et devra rester un plaisir.
+Cela fait bien longtemps que j'aurais du démarrer ce blog; bien longtemps... Mais ne dit-on pas : ***Il n'est jamais trop tard pour bien faire*** ? Alors, voilà, je m'y mets et j'espère le faire avec sérieux (je parle ici de régularité), mais surtout avec enthousiasme. Sérieusement, oui, mais sans se prendre au sérieux, justement 😛. Cela est et devra rester, un plaisir.
 
 L'objectif de **Cloud-Guru, le Blog** est de partager mes connaissances dans le domaine du ***Cloud***, mais aussi sur de nombreux autres domaines parmi ceux listés ci-dessous :
 

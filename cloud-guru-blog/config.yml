@@ -14,7 +14,7 @@ languages:
         weight: 1
     # en:
     #     languageName: English
-    #     title: Cloud-Guru Blog
+    #     title: Cloud-Guru, the Blog
     #     weight: 2
 
 # GA Tracking ID

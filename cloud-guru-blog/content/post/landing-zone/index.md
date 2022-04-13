@@ -1,5 +1,5 @@
 ---
-image: landing-zone.jpg
+image: landing-zone-title.jpg
 title: "Landing Zone"
 date: 2022-03-26
 # lastmod: 2022-03-26
@@ -36,7 +36,7 @@ Nous pouvons définir une Landing Zone (ou Cloud Fondations), comme la prise en 
 
 ### Schéma
 
-![Landing Zone](img/landing-zone.jpg)
+![Landing Zone](landing-zone.jpg)
 
 ### Explications générales
 

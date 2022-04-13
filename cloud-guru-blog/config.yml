@@ -36,6 +36,11 @@ permalinks:
 params:
   birthDate: '1967-05-15'
   
+  custom_css:
+  
+  custom_js:
+
+
   mainSections:
     - post
     # - home

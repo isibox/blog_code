@@ -1,5 +1,5 @@
 ---
-image: img/iac.png
+image: iac.jpg
 title: "Découverte de Bicep"
 date: 2022-04-07T08:15:15+02:00
 categories:
@@ -134,10 +134,12 @@ az deployment sub create \
 #### Résultat sur le Portail Azure
 
 Le "Resource Group" **RGSCE01D** dans le Portail Azure
-![RGSCE01D](OutputSimpleCodeDeployment.png)
+
+![RGSCE01D](OutputSimpleCodeDeployment.jpg)
 
 Le **deployment** **SimpleCodeDeployment** dans le Portail Azure
-![Simple Code Deployment](AzurePortalSimpleCodeDeployment.png)
+
+![Simple Code Deployment](AzurePortalSimpleCodeDeployment.jpg)
 
 ### Mise à Jour
 
@@ -271,23 +273,22 @@ Sortie JSON de la mise à jour du Déploiement
 
 #### Résultat sur le Portail Azure
 
-> ...
-![Simple Code Deployment Update](AzurePortalSimpleCodeDeploymentUpdate.png)
+![Simple Code Deployment Update](AzurePortalSimpleCodeDeploymentUpdate.jpg)
 
 ### Gestion des Déploiements
 
 #### Azure Portal Deployment Overview
 
-![Azure Portal Deployment Overview](AzurePortalDeploymentOverview.png)
+![Azure Portal Deployment Overview](AzurePortalDeploymentOverview.jpg)
 
 #### Azure Portal Deployment Inputs
 
-![Azure Portal Deployment Inputs](AzurePortalDeploymentInputs.png)
+![Azure Portal Deployment Inputs](AzurePortalDeploymentInputs.jpg)
 
 #### Azure Portal Deployment Outputs
 
-![Azure Portal Deployment Outputs](AzurePortalDeploymentOutputs.png)
+![Azure Portal Deployment Outputs](AzurePortalDeploymentOutputs.jpg)
 
 #### Azure Portal Deployment Template
 
-![Azure Portal Deployment Template](AzurePortalDeploymentTemplate.png)
+![Azure Portal Deployment Template](AzurePortalDeploymentTemplate.jpg)

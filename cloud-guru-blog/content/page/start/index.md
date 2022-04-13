@@ -39,7 +39,7 @@ L'idée, qui me motive sur la publicaton régulière d'articles sur ce blog, est
 
 **Voici ci-dessous un schéma très simple représentatif de ce démonstrateur:**
 
-![Démonstrateur](img/demonstrator.jpg)
+![Démonstrateur](demonstrator.jpg)
 
 **Description fonctionnelle de ce démonstrateur:**
 
@@ -55,7 +55,7 @@ L'idée, qui me motive sur la publicaton régulière d'articles sur ce blog, est
 
 ### Schéma représentatif
 
-![Environnement de Dev](img/dev-environment.jpg)
+![Environnement de Dev](dev-environment.jpg)
 
 ### Description des composants
 
@@ -77,4 +77,4 @@ L'idée, qui me motive sur la publicaton régulière d'articles sur ce blog, est
 Et, bien, il ne me reste plus qu'a me mettre au travail. Rendez-vous sur les premiers articles à suivre...\
 Abonnez-vous sur le flux RSS du Blog.
 
-![Hop, au boulot !](img/lets-get-started.jpg)
+![Hop, au boulot !](lets-get-started.jpg)

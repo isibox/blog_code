@@ -84,23 +84,23 @@ Ma volonté est de créer des infrastructures techniques simples, sécurisées, 
 |----------|-----|-----|
 ||||
 |***ARDIAN*** - Paris (75) - CDI| 09/2021 - 03/2022|Architecte Infrastructures Cloud|
-|![Ardian](Ardian-logo.png)||Management d’une équipe de 4 ingénieurs externes (Ingénieurs SRE)|
+|![Ardian](Ardian-logo.jpg)||Management d’une équipe de 4 ingénieurs externes (Ingénieurs SRE)|
 |||Product Owner **Technique** Cloud Azure|
 ||||
 |***CARREFOUR*** - Massy (91) - Consultant|01/2017 - 08/2021|Architecte Infrastructure Cloud|
-|![Carrefour](Carrefour-logo.png)||Leader Technique sur les Clouds Publics **Azure**, **GCP** et **OCI**|
+|![Carrefour](Carrefour-logo.jpg)||Leader Technique sur les Clouds Publics **Azure**, **GCP** et **OCI**|
 |||Création de datacenters Cloud hébergeant environ 500 applications (dont 450 en production)|
 ||||
 |***SERVIER*** - Suresnes (92) - Consultant|05/2016 - 12/2016|Définition du **Schéma Directeur Infrastructure**|
-|![Servier](Servier-logo.png)|||
+|![Servier](Servier-logo.jpg)|||
 |***TF1 SA*** - Boulogne-Billancourt (92) - CDI|03/2010 - 04/2016|Architecte Technique et Systèmes des domaines Antennes, News, Audiences, TF1 Entreprises, DAGS, RH, Juridique, Finances et Sécurité|
-|![TF1](TF1-logo.png)|12/2008 - 02/2010|Architecte Technique sur le Projet **Process News et Sports 2**|
+|![TF1](TF1-logo.jpg)|12/2008 - 02/2010|Architecte Technique sur le Projet **Process News et Sports 2**|
 ||11/2008 - 10/2008|Ingénieur et Architecte Sécurité|
 ||01/2001 - 08/2008|Ingénieur Systèmes|
 ||01/1999 - 12/2000|Apprenti Ingénieur en alternance|
 ||||
 |***SNCF*** – Centre Essais – Vitry sur Seine (94) - CDI|05/1995 - 12/1998|Administrateur Systèmes, Réseau et Bureautique|
-|![SNCF](SNCF-logo.png)|09/1991 - 04/1995|Développeur Informatique Industrielle|
+|![SNCF](SNCF-logo.jpg)|09/1991 - 04/1995|Développeur Informatique Industrielle|
 
 ## Parcours académique
 

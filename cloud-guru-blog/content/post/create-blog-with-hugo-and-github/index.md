@@ -1,14 +1,15 @@
 ---
-title: "Create a Blog With Hugo and Github"
-date: 2022-02-26T16:28:56+01:00
+image: cloud-2.jpg
+title: "Create Blog With Hugo and Github"
+date: 2022-02-26
 tags:
-  - github
   - hugo
 categories:
   - Front
   - Code
 draft: true
 ---
+
 
 ## Prerequisites on Github
 
